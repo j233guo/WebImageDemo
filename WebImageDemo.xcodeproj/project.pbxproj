@@ -14,6 +14,8 @@
 		C92380B8297EFF810007B348 /* WebImageDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92380B7297EFF810007B348 /* WebImageDemoTests.swift */; };
 		C92380C2297EFF810007B348 /* WebImageDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92380C1297EFF810007B348 /* WebImageDemoUITests.swift */; };
 		C92380C4297EFF810007B348 /* WebImageDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92380C3297EFF810007B348 /* WebImageDemoUITestsLaunchTests.swift */; };
+		C92380D1297F00F30007B348 /* SimpleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92380D0297F00F30007B348 /* SimpleExample.swift */; };
+		C92380D3297F01090007B348 /* WebImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92380D2297F01090007B348 /* WebImageExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		C92380BD297EFF810007B348 /* WebImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92380C1297EFF810007B348 /* WebImageDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageDemoUITests.swift; sourceTree = "<group>"; };
 		C92380C3297EFF810007B348 /* WebImageDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C92380D0297F00F30007B348 /* SimpleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleExample.swift; sourceTree = "<group>"; };
+		C92380D2297F01090007B348 /* WebImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				C92380A6297EFF800007B348 /* WebImageDemoApp.swift */,
 				C92380A8297EFF800007B348 /* ContentView.swift */,
+				C92380D0297F00F30007B348 /* SimpleExample.swift */,
+				C92380D2297F01090007B348 /* WebImageExample.swift */,
 				C92380AA297EFF810007B348 /* Assets.xcassets */,
 				C92380AC297EFF810007B348 /* Preview Content */,
 			);
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C92380A9297EFF800007B348 /* ContentView.swift in Sources */,
+				C92380D3297F01090007B348 /* WebImageExample.swift in Sources */,
+				C92380D1297F00F30007B348 /* SimpleExample.swift in Sources */,
 				C92380A7297EFF800007B348 /* WebImageDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

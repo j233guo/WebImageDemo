@@ -7,15 +7,20 @@
 
 import SwiftUI
 
+private let url = URL(string: "https://raw.githubusercontent.com/j233guo/PostWeibo/main/PostWeibo/Resources/006PdkDogy1gap6ngj12ej30u011itf7.jpg")
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            List {
+                NavigationLink("Simple") {
+                    SimpleExample(url: url)
+                }
+                NavigationLink("Web Image") {
+                    WebImageExample()
+                }
+            }
         }
-        .padding()
     }
 }
 
