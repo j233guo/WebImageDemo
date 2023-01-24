@@ -17,7 +17,7 @@ struct ContentView: View {
                     SimpleExample(url: url)
                 }
                 NavigationLink("Web Image") {
-                    WebImageExample()
+                    WebImageExample(url: url)
                 }
             }
         }

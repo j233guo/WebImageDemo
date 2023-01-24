@@ -5,22 +5,18 @@
 //  Created by Jiaming Guo on 2023-01-23.
 //
 
+import SDWebImageSwiftUI
 import SwiftUI
 
 struct WebImageExample: View {
+    let url: URL?
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
-
-struct WebImageExample_Previews: PreviewProvider {
-    static var previews: some View {
-        WebImageExample()
+        WebImage(url: url)
+            .placeholder { Color.gray }
+            .resizable()
+            .scaledToFill()
+            .frame(height: 600)
+            .clipped()
     }
 }
