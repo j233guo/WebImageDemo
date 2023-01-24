@@ -15,6 +15,14 @@ struct WebImageExample: View {
         WebImage(url: url)
             .placeholder { Color.gray }
             .resizable()
+            .onSuccess(perform: { _, _, _ in
+                print("Success")
+                // Clear cache
+                SDWebImageManager.shared.imageCache.clear?(with: .all)
+            })
+            .onFailure(perform: { _ in
+                print("Failure")
+            })
             .scaledToFill()
             .frame(height: 600)
             .clipped()
